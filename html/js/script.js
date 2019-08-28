@@ -9,12 +9,9 @@ function showSlides() {
         slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex >= slides.length) { 
+    if (slideIndex >= slides.length) {
         slideIndex = 0;
     }
-
-    
-        slides[slideIndex].style.display = "block";
-        setTimeout(showSlides, 2000);
-    
+    slides[slideIndex].style.display = "block";
+    setTimeout(showSlides, 10000);
 }
