@@ -10,7 +10,6 @@ ul {
 }  
 li {
     float: left;
-
 }
 li a {
     display: block;
@@ -21,15 +20,12 @@ li a {
 }  
 li a:hover {
     background-color: rgb(236, 167, 220);
-
 }
-* {box-sizing: border-box;}
 .mySlides {display: none; max-width: 100%;}
 img {vertical-align: middle;}
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: auto;
 }
 .fade {
   -webkit-animation-name: fade;
@@ -45,6 +41,4 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
+@media only screen and (max-width: 300px){}
