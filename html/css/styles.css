@@ -7,24 +7,20 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
-}
-
-  
+}  
 li {
     float: left;
-
 }
-
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 15px;
     text-decoration: none;
-}
-  
+}  
 li a:hover {
     background-color: rgb(236, 167, 220);
+<<<<<<< HEAD
 
 }
 * {box-sizing: border-box;}
@@ -75,24 +71,43 @@ img {vertical-align: middle;}
 }
 
 /* Fading animation */
+=======
+}
+.mySlides {display: none; max-width: 100%;}
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+>>>>>>> dc69d39212f6bb9fc7ee78fa2c545535cdb1a169
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> dc69d39212f6bb9fc7ee78fa2c545535cdb1a169
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> dc69d39212f6bb9fc7ee78fa2c545535cdb1a169
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
+<<<<<<< HEAD
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+=======
+@media only screen and (max-width: 300px){}
+>>>>>>> dc69d39212f6bb9fc7ee78fa2c545535cdb1a169
