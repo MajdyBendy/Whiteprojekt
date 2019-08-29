@@ -45,11 +45,3 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 @media only screen and (max-width: 300px) {}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 10vh;
-  width: 100%;
-  background-color:white;
-  }
