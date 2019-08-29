@@ -21,7 +21,9 @@ li a {
 li a:hover {
     background-color: rgb(236, 167, 220);
 }
-.mySlides {display: none; max-width: 100%;}
+.menu {max-width: 12vw;}
+.mySlides{display: none; max-width: 100%;}
+.texty{max-width: 100%;}
 img {vertical-align: middle;}
 .slideshow-container {
   max-width: 100%;
